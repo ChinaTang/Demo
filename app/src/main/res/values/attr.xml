@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomerImageView">
+        <attr name="text" format="string"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="textcolor" format="color"></attr>
+        <attr name="image" format="reference"></attr>
+        <attr name="imageScaleType" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
