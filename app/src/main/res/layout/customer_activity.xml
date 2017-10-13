@@ -16,10 +16,10 @@
 
     <com.tangdi.demo.CustomerProgess
         android:id="@+id/progess"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        custom:circlewidth="40dp"
-        custom:firstcolor="@color/colorAccent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        custom:circlewidth="2dp"
+        custom:firstcolor="#00000000"
         custom:secondcolor="@color/colorPrimaryDark"
         custom:circletext="跳过"
         custom:circletextsize="15dp"

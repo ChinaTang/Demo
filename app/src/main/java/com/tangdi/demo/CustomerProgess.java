@@ -126,7 +126,7 @@ public class CustomerProgess extends View {
 
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.FILL);
-        canvas.drawText(text, centre - mTextBound.width() / 2, centre, paint);
+        canvas.drawText(text, centre - mTextBound.width() / 2, centre + mTextBound.height() / 2 , paint);
 
         paint.setStrokeWidth(circlewidth);
         paint.setAntiAlias(true); // 消除锯齿
