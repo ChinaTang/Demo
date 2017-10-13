@@ -8,5 +8,14 @@
         <attr name="image" format="reference"></attr>
         <attr name="imageScaleType" format="dimension"></attr>
     </declare-styleable>
+    
+    <declare-styleable name="CustomerProgess">
+        <attr name="firstcolor" format="color"/>
+        <attr name="secondcolor" format="color"/>
+        <attr name="circlewidth" format="dimension"/>
+        <attr name="speed" format="integer"/>
+        <attr name="circletext" format="string"></attr>
+        <attr name="circletextsize" format="dimension"/>
+    </declare-styleable>
 
 </resources>

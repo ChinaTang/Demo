@@ -11,6 +11,18 @@
         custom:image="@mipmap/ic_launcher"
         custom:text="1234"
         custom:textSize="10dp"
+        android:visibility="gone"
         />
+
+    <com.tangdi.demo.CustomerProgess
+        android:id="@+id/progess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:circlewidth="40dp"
+        custom:firstcolor="@color/colorAccent"
+        custom:secondcolor="@color/colorPrimaryDark"
+        custom:circletext="跳过"
+        custom:circletextsize="15dp"
+        custom:speed="100" />
 
 </LinearLayout>
